@@ -22,7 +22,7 @@ export const ProcessingList = styled.ul`
   margin: 10px;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 24px;
   list-style: none;
 
@@ -32,6 +32,7 @@ export const ProcessingList = styled.ul`
 
   li {
     max-width: 400px;
+    grid-column: span 2;
     background: var(--secundary);
     color: var(--white);
     padding: 24px;
@@ -51,6 +52,14 @@ export const ProcessingList = styled.ul`
 
     p {
       padding: 10px;
+    }
+
+    @media (min-width: 800px) {
+      /* Dealing with single orphan */
+      &:last-child:nth-child(3n - 1) {
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
     }
   }
 `;

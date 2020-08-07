@@ -28,7 +28,7 @@ export const Container = styled.div`
   p {
     padding: 10px;
     text-indent: 30px;
-    text-align: left;
+    text-align: justify;
     color: var(--secundary);
     line-height: 30px;
     font-size: 18px;
