@@ -42,4 +42,10 @@ export const Container = styled.div`
       max-width: 120px;
     }
   }
+
+  @media (max-width: 400px) {
+    img {
+      max-width: 100px;
+    }
+  }
 `;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import background from '../../assets/background.svg';
 
 export const Container = styled.div`
-  min-height: 100vh;
+  width: 100%;
   background: url(${background});
   background-attachment: fixed;
   background-position: center;
