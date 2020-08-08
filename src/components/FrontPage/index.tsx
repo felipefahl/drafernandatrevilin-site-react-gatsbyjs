@@ -7,6 +7,7 @@ import Footer from '../Footer';
 import Home from '../Home';
 import About from '../About';
 import Processing from '../Processing';
+import Contact from '../Contact';
 
 const FrontPage: React.FC = () => {
   const headerProps = {
@@ -37,7 +38,7 @@ const FrontPage: React.FC = () => {
         <DivEmpty />
         <Processing id={headerProps.procsContentElementId} />
         <DivEmpty />
-        <Home id={headerProps.contactContentElementId} />
+        <Contact id={headerProps.contactContentElementId} />
       </Main>
       <Footer />
     </Container>
