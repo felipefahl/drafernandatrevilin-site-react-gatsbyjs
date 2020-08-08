@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: 'Dra Fernanda Trevilin',
-    siteUrl: 'http://rashmiap.me',
+    siteUrl: 'https://drafernandatrevilin.odo.br',
   },
   plugins: [
     `gatsby-plugin-styled-components`,

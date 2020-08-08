@@ -13,7 +13,7 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
     <Container id={id}>
       <h1>Onde me encontrar</h1>
       <div>
-        <p>Agende uma consulta pelo Whatsapp clicando aqui</p>
+        <p>Agende uma consulta pelo Whatsapp clicando abaixo</p>
         <a
           className="WhatsApp"
           href="https://wa.me/5519988041122?text=Ol%C3%A1%2C%0AGostaria%20de%20agendar%20uma%20consulta."
