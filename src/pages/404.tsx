@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { FiHome } from 'react-icons/fi';
 
-import GlobalStyle from '../../styles/global';
-import logo from '../../assets/logo.svg';
-import { Container } from './styles';
+import GlobalStyle from '../styles/global';
+import logo from '../assets/logo.svg';
+import { Container } from '../styles/404Style';
 
 const Page404: React.FC = () => {
   return (
