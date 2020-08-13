@@ -26,7 +26,7 @@ export const Container = styled.div`
   }
 
   p {
-    padding: 10px;
+    padding: 20px 60px;
     text-indent: 30px;
     text-align: justify;
     color: var(--secundary);
@@ -41,11 +41,17 @@ export const Container = styled.div`
     img {
       max-width: 120px;
     }
+    p {
+      padding: 20px 40px;
+    }
   }
 
   @media (max-width: 400px) {
     img {
       max-width: 100px;
+    }
+    p {
+      padding: 10px 20px;
     }
   }
 `;

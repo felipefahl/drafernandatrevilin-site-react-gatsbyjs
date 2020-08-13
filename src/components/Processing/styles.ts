@@ -15,6 +15,12 @@ export const Container = styled.div`
     font-size: 40px;
     padding: 10px;
   }
+
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 35px;
+    }
+  }
 `;
 
 export const ProcessingList = styled.ul`
