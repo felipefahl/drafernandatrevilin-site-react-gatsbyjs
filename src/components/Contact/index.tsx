@@ -49,14 +49,12 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
 
         <h3>Endereço</h3>
         <a
-          href="https://goo.gl/maps/bfNFmGkfkqo8pgQb6"
+          href="https://goo.gl/maps/fhNQwcGVdXvUiG539"
           rel="noreferrer"
           target="_blank"
         >
           <FiMapPin size={30} />
-          <p>
-            Rua Marechal Deodoro 1511, Bairro Alto Piracicaba-SP CEP 13416-580
-          </p>
+          <p>Av. França, 195, Cidade Jardim, Piracicaba - SP, CEP 13416-520</p>
         </a>
       </div>
     </Container>
