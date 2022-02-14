@@ -55,7 +55,7 @@ const FrontPage: React.FC = () => {
         <DivEmpty />
         <Contact id={headerProps.contactContentElementId} />
       </Main>
-      <DivWhatsapp
+      {/* <DivWhatsapp
         href="https://wa.me/5519988041122?text=Ol%C3%A1%2C%0AGostaria%20de%20mais%20informações."
         rel="noreferrer"
         target="_blank"
@@ -64,7 +64,7 @@ const FrontPage: React.FC = () => {
         <div>
           <p>Olá.. Fale comigo por aqui</p>
         </div>
-      </DivWhatsapp>
+      </DivWhatsapp> */}
       <Footer />
     </Container>
   );

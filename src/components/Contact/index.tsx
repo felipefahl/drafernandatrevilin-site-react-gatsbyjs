@@ -13,7 +13,7 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
     <Container id={id}>
       <h1>Onde me encontrar</h1>
       <div>
-        <p>Agende uma consulta pelo Whatsapp clicando abaixo</p>
+        {/* <p>Agende uma consulta pelo Whatsapp clicando abaixo</p>
         <a
           className="WhatsApp"
           href="https://wa.me/5519988041122?text=Ol%C3%A1%2C%0AGostaria%20de%20agendar%20uma%20consulta."
@@ -22,8 +22,8 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
         >
           <FaWhatsapp size={40} />
           <p>(19) 98804-1122</p>
-        </a>
-        <h3>Você também me encontra aqui</h3>
+        </a> */}
+        {/* <h3>Você me encontra aqui</h3> */}
         <SocialMedia>
           <a href="mailto:drafernandatrevilin@gmail.com">
             <FiMail size={30} />
@@ -44,7 +44,7 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
           </a>
         </SocialMedia>
 
-        <h3>Horário de atendimento</h3>
+        {/* <h3>Horário de atendimento</h3>
         <p>Segunda a Sexta das 08:00 às 18:00</p>
 
         <h3>Endereço</h3>
@@ -55,7 +55,7 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
         >
           <FiMapPin size={30} />
           <p>Av. França, 195, Cidade Jardim, Piracicaba - SP, CEP 13416-520</p>
-        </a>
+        </a> */}
       </div>
     </Container>
   );
